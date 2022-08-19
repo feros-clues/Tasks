@@ -1,0 +1,127 @@
+body{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/3a073c5f-0160-4d85-9a42-6f59aa4b64b9/ce862595-09a3-4fbf-b41c-76386c05f759/IN-en-20220718-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+     background-attachment: fixed;
+    
+
+    /* opacity: 0.5; */
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+/* #background{
+    background-image: url(netflix_background.jpg);
+    height: 100%; }*/
+
+ #backgroundcolor{ 
+    background-color: rgba(30, 29, 29, 0.45);
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#formwrapper{
+
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 5px;
+    /* padding: 40px 70px 80px 70px; */
+    padding: 4rem;
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+    color: #737373;
+    
+}
+h1{
+    color: white;
+    margin-bottom: 20px;
+}
+.form-group  {
+    
+    background-color: #333;
+    border: none;
+    border-radius: .3rem;
+    outline: none;
+    color: #fff;
+    padding: 10px 10px 10px;
+    font-size: 1rem;
+    width: 280px;
+}
+
+#signin{
+    background-color: red;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.remember{
+    color: #b3b3b3;
+    text-decoration: none;
+    display: flex;
+    justify-content:space-between;
+    
+    
+}
+#input{
+    display: block;
+    width: 15px;
+    padding-right: 15px;
+}
+#reme{
+    display: flex;
+}
+.newto{
+    display: flex;
+    margin-top: 20px;
+    color: #b3b3b3;
+}
+#signup{
+    color: #fff;
+    text-decoration: none;
+    padding-left: 5px;
+
+}
+#signup:hover{
+    text-decoration: underline;
+}
+
+#learnmore{
+    color: #b3b3b3;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#re{
+    padding-left: 5px;
+}
+
+
+
+/* tablet screens */
+@media (min-width: 700px) and (max-width: 1000px) {
+    #formwrapper {
+      width: 60%;
+    }
+  }
+  
+/* mobile screens */
+@media (max-width: 700px) {
+    #formwrapper {
+      width: 90%;
+    }
+  }
+  
+  /* it will be applied while printing the page */
+  @media print {
+    input[type="submit"] {
+      background-color: blueviolet;
+    }
+  }

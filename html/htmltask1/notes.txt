@@ -1,0 +1,80 @@
+<h1>1. META TAGS =></h1>
+   
+   <h4>1.1 CHARSET     - To define character set to the website.</h4>
+   <h4>1.2 DESCRIPTION - To set description of our webpage so that it will appear as a snippet when user share our page on social media.</h4>
+   <h4>1.3 KEYWORDS    - To provide information about our website content in very short words.</h4>
+   <h4>1.4 AUTHOR      - To provide information about the owner of website.</h4>
+   <h4>1.5 VIEWPORT    - set our webpage width to device width and set the initial zoom to 100%.</h4>
+
+
+    SELF CLOSING TAGS</h1>
+   <p><div style="color:green">Self closing tags doesn't have any closing tags they just open and close in themselves</div></p>
+   
+   
+   
+   <h1>2.HR TAG (hr) =></h1>
+   <p>The hr tag will draw an horizontal row on the screen.</p>
+   
+   <hr />
+   
+   <h1>3.BR TAG (br) =></h1>
+   <p>The br tag will break the line/add a new line/add line break.</p>
+
+
+  # <h2>4.INPUT TAG/FORM CONTROLS =></h2>(input tag is inline level tag)
+   <p>Input tag is used to create an text field to write text and display input control to users.</p>
+
+   <h3>4.1 Attributes of Input Tag</h3>
+   <h4>4.1.1 type="text"</h4>
+   
+   <input type="text" placeholder="Enter Your Name"/><br/><br/>
+   <input type="text" placeholder="Enter Your Age"/><br/><br/>
+   
+   <h4>4.1.2 type="number"</h4>
+   
+   <input type="number" placeholder="Enter Your Mobile Number"/><br/><br/>
+    
+   <h4>4.1.3 type="email"</h4>
+   
+   <input type="email" placeholder="Enter Your Email"/><br/><br/>
+   
+   <h4>4.1.4 type="Submit"</h4>
+   
+   <input type="submit"/>
+   
+   <p>All right reserved &copy; Addvic Technology</p>
+   
+   <h4>4.1.5 type="radio"</h4>
+   
+   <input name="gender" type="radio"/>Male<br/>
+   <input name="gender" type="radio"/>Female<br/><br/>
+   
+   <h4>4.1.6 type="checkbox"</h4>
+   
+   <input name="courses" type="checkbox"/>JAVA<br/>
+   <input name="courses" type="checkbox"/>MERN STACK<br/>
+   <input name="courses" type="checkbox"/>MEAN STACK<br/>
+   <input name="courses" type="checkbox"/>PYTHON<br/><br/>
+   
+   <h4>4.1.7 type="date"</h4>
+   
+   <input type="date"/></br></br>
+   
+   <h4>4.1.8 type="time"</h4>
+   
+   <input type="time"/><br/><br/>
+   
+   <h4>4.1.9 type="range"</h4>
+   
+   <span>0%<input type="range"/>100%</span> <br/><br/>
+   
+   <h4>4.1.10 type="file"</h4>
+   
+   <input type="file"/><br/><br/>
+   
+   <h4>4.1.11 type="password"</h4>
+   
+   <input type="password"/><br/><br/>
+   
+   <h4>4.1.12 type="week"</h4>
+   

@@ -1,0 +1,49 @@
+ <div>
+        HTML codemm ;vcmvmkdmvxc
+        <P>block level element</P>
+        ghghghgs
+        <a href="#">inline elment</a>
+        <a href="#">inline elment</a>
+        call:3545454565
+        <p>block</p>
+    </div>
+
+    whatever you text write in body / div/ paragraph is inline 
+
+    block: it get started from new line and get ends at new line
+
+    inline : it get get started from old line and get ends at same line
+
+
+    block level elements:
+    <address><article><aside><blockquote><canvas><dd><div><dl><dt><fieldset><figcaption><figure><footer><form><h1>-<h6><header><hr><li><main><nav><noscript><ol><p><pre><section><table><tfoot><ul><video>
+
+    inline element:
+    a><abbr><acronym><b><bdo><big><br><button><cite><code><dfn><em><i><img><input><kbd><label><map><object><output><q><samp><script><select><small><span><strong><sub><sup><textarea><time><tt><var>
+
+
+    specialnote: there are some bydefault values set by the browser to the tags 
+    and once we overrride in html and css that css properties will be strikethrough once overrriden
+    we can chekt it in 
+    inspect page in 
+    and goto style section and click on the tags
+    
+
+for 
+    flex-direction- row-reverse
+    bodys end= flex star
+    bodys start = body end
+
+
+
+   :: alignment means in particular position 
+    if all item are in row means they are in alignment
+
+    in 
+    align-item 
+    flex-direction:row
+    align-item: end
+    the cursor will go to last row
+    flex-direction:column
+    align-item: end
+    the cursor will go to last column.
