@@ -1,0 +1,8 @@
+
+#usercard{
+    background-color: rgb(102, 149, 199);
+    margin: 1rem;
+    padding: 2rem;
+    width: 15vw;
+    border: 2px solid black;
+}
