@@ -53,7 +53,6 @@ a{
     color: #000;
     font-weight: 500;
     padding: 6px 35px;
-    width: 50%;
     max-width: 190px;
     text-align: center;
     display: inline-block;
@@ -393,3 +392,115 @@ footer{
     padding-top: 40px;
     padding-left: 40px;
 }
+
+@media  (max-width:580px){
+
+        footer{
+            color:#D75309;
+            margin-top: 3rem;
+        }
+    #sec3_3para{
+        width: 100%;
+        font-style: italic;
+    }
+    
+    p.l{    
+        padding-left: 3em;
+        padding-right: 1em;
+        font-size: medium;
+    }
+    h2{
+        font-size: large;
+    }
+    #logo{
+        /* position: absolute;
+        top: 20px;
+        left: 160px; */
+        /* text-align:center; */
+        
+            display: block;
+            margin-left: 33%;
+            margin-right: auto;
+            width: 130px;
+            height: auto;
+            
+            
+          
+    }
+    #header{
+        display: flex;
+    }
+    #navLinks{
+        
+        margin-top: 3rem;
+        margin-left: 7%;
+        background-color: #000;
+        color: #fff;
+    }
+    #signIn{
+        width: fit-content;
+        padding: 3px 15px;
+    }
+    .bookDetailsHead{
+        font-size: smaller;
+    }
+    .book{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    #bookSubmit{
+        width: 30%;
+    }
+    .b1{
+        margin-right: 5px;
+    }
+    #section2{ 
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+     width: 100%; 
+     padding-right: 0%; 
+     height: auto;
+    }
+    #section2_2_1{
+        display: flex;
+    }
+    #section3{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #sec3_1para{
+        font-size: x-large;
+        padding-left: 0%;
+    }
+    #sec3_2para{
+        font-size: xx-large;
+        padding-left: 0pt;
+    }
+    #sec3_3para{
+        text-align: start;
+    }
+    #breakfastImg{
+        height: 40vh;
+        width:70vw ;
+    }
+    #section4{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+    #section4_1{
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+    #section4_2{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: 18px;
+    }
+    #form{
+        position: relative;
+        left: 100px;
+    }
+} 
+    
