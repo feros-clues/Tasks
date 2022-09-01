@@ -1,0 +1,235 @@
+*{
+    margin: 1px;
+    font-family: 'Sen', Helvetica, Arial, sans-serif;
+}
+#header{
+    background-color: black;
+    height: 10vh;
+    /* border: 2px solid black; */
+}
+footer{
+    background-color: black;
+    height: 10vh;
+    /* margin-top: vh; */
+    /* margin-bottom : 0px; */
+    /* width: 1%; */
+    border-top: 15px solid rgb(182, 17, 197);
+}
+#maxoContact{
+    /* display: flex; */
+    /* flex-direction: column; */
+   background-color: #008CBA;
+    width: 35vw;
+    color: white;
+    height: 40vh;
+    position: relative;
+    top:12.5vh;
+    left: 5rem;
+    /* text-align: left; */
+    /* justify-content:; */
+    /* align-items: center; */
+}
+#maxoContact1{
+    /* border: 2px solid red; */
+    padding-top: 3vh;
+    padding-left:5vh
+}
+.maxoContactPad{
+    display: inline-block;
+    padding-top: 0.5em;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: greenyellow;
+}
+.logo1{
+   background-color: #008CBA;
+   border-right: 15px solid rgb(182, 17, 197);
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   width: 25vw;
+   height: 22vh;
+   position:absolute;
+   top:1px;
+   left: 1px;
+}
+/* #logoImg{
+    border: 2px solid red;
+} */
+
+#health{
+    /* margin-top:2rem; */
+    margin-left:0.3rem;
+}
+#medical{
+    display: flex;
+    justify-content: flex-end;
+    /* border: 2px solid red; */
+}
+#medicalForm{
+    color: #008CBA;;
+    padding-left: 10px;
+    margin-right: 3rem;
+}
+
+form{
+
+    width: 85vw;
+    margin-left: 5rem;
+    /* margin-bottom: 10rem; */
+}
+input{
+    border: none;
+    outline:none;
+    border-bottom:2px solid green;
+}
+.head1{
+    display: block;
+    background-color: black;
+    color: white;
+    /* margin-top: 2rem; */
+    padding: 1em;
+    /* margin-left: 2rem; */
+    /* margin: right 1rem; */
+    border-left:15px solid #008CBA; ;
+    /* width: 90vw; */
+}
+
+#head1_full_name{
+    display: flex;
+    margin-top: 1rem;
+    
+
+}
+#head1_input{
+    display: flex;
+    flex-direction: column;
+}
+
+input.text1{
+    width: 73.1vw;
+    /* border: none; */
+    border: 1px solid green;
+    background-color: rgb(249, 249, 246);
+    padding: 2px;
+    margin-top: 2px;
+}
+
+input.birthplace{
+    border:none;
+    border-bottom: 2px solid rgb(37, 160, 37);
+
+}
+#Gender{
+    display: inline-block;
+}
+input#address{
+    width:85%;
+    padding-right: 1rem;
+    /* margin-left: 5%; */
+    /* margin-left: 10%; */
+    
+}
+#Address{padding-right: 3.5em}
+#cont{
+    display: flex;
+    /* justify-content:space-evenly; */
+    /* text-align: center; */
+    width:100%;
+}
+#phoneNumber{
+    width: 40%;
+    margin-right: 2%;
+}
+#Email{
+    width: 37%;
+}
+.colonGap{
+    margin-left: 1rem;
+}
+
+
+#ID{
+    display: flex;
+    /* justify-content: space-between; */
+    border: 2px solid red;
+}
+#idNumber{
+    width:35%;
+    margin-right: 2%;
+}
+#SocialSecNum{
+    width: 29%;
+}
+#status{
+    margin: 2rem;
+}
+#occupation{
+    /* display: inline-block; */
+    width: 40%;
+    /* border: 2px solid red; */
+}
+#notes{
+    width: 91%;
+}
+
+.emergency{
+    width:33%;
+}
+.colonGap3{
+    margin-left: 12.3%;
+}
+.colonGap4{
+    margin-left: 3.2%;
+}
+.colonGap5{
+    margin-left:7.8%;
+}
+.colonGap5_1{
+    margin-left: 3.7%;
+}
+.office1{
+    width: 32.5%;
+}
+
+#sign{
+
+    display: flex;
+    flex-direction: column;
+   
+    width: 25%;
+    float: right;
+    margin-top: 7%;
+    align-items: center;
+}
+input.submit{
+    
+        background-color: #008CBA;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      
+}
+.name{
+   border:none;
+    width: 15em;
+    margin-left: 6rem;
+}
+.signature{
+    border-bottom:none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 13rem;
+    font-size: xx-large;
+
+}
