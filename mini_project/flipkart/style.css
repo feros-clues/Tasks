@@ -19,31 +19,32 @@ background: rgb(131,45,30);
 background: radial-gradient(circle, rgba(131,45,30,1) 0%, rgba(61,61,196,1) 44%, rgba(34,193,191,1) 56%, rgba(228,189,46,1) 100%);
 box-sizing: border-box;
 /* border: 2px solid yellow; */
-height: 100%;
+height: 100vh;
 margin-bottom: 0px;
+overflow-x: hidden;
 }
 
 #wrap{
-    width: 100%;
+    
     display: flex;
     justify-content: center;
  
     align-items: center;
     
      height: 100%;
-     border: 2px solid green;
-     background-attachment: fixed;
+     
+     position: fixed;
+     left: 22.5%;
+
 }
 
 #Container{
     display: flex;
-    border: 2px solid red ;
+    margin-top: 1rem;
     background-color: white;
     height: 95vh;
     box-sizing: border-box;
-    width: fit-content;
-
-    
+    width: 55vw;
 
 }
 
@@ -67,7 +68,7 @@ h1{
 
 .Division1{
     background-color: #2874F0;
-    width: 30%;
+    width: 35%;
     box-sizing: border-box;
     height:100%;
     overflow:hidden;
@@ -86,6 +87,7 @@ img{
 .Divison2{
     background-color:#FFFFFF ;
     /* border: 2px solid rgb(0, 21, 255); */
+    width: fit-content;
 
 }
 
